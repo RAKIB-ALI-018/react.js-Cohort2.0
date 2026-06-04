@@ -1,0 +1,15 @@
+#box{
+    height: 300px;
+    width: 300px;
+    background-color: cornflowerblue;
+    border: none;
+}
+
+
+#circle{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color:cyan;
+    border: none;
+}
