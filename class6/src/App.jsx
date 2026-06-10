@@ -16,7 +16,9 @@ const App = () => {
 
   return (
     <div className='px-10 py-10'>
+    
       <form className=' flex gap-3' onSubmit={submitHandler}>
+
         <input 
         type="text" 
         placeholder='Enter Your Name'
@@ -24,7 +26,10 @@ const App = () => {
         value={name}
         onChange={(e) => setName(e.target.value)} 
         required
+
         />
+
+
         <button className='bg-emerald-500 rounded-2xl text-2xl font-sans font-semibold text-white px-4 py-2'>Submit</button>
       </form>
 
